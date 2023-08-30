@@ -9,6 +9,6 @@ import { TeamMember } from '@elewa-website/models/schema/ui/cards';
 })
 export class TeamMemberCardComponent {
 
-  /** input teamMemberData of type @interface TeamMember */
+  /* input teamMemberData of type @interface TeamMember */
   @Input() teamMemberData !: TeamMember;  
 }
