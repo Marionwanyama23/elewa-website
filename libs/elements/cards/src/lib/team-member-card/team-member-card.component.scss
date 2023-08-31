@@ -1,0 +1,27 @@
+.team-member-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 7px;
+    justify-content: center;
+    
+}
+
+img {
+    height: 467px;
+    width: 365px;
+    border-radius: 175px;
+}
+
+.image-card {
+    margin: 20px;
+}
+
+h3 {
+    font-family: "DMSans-Medium";
+    font-size: 36px;
+}
+
+@media (min-width: 768px) {
+   // width 50%; // Adjust for larger screens
+  }
