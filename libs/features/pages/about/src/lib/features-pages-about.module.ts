@@ -12,6 +12,7 @@ import { TeamMembersSectionComponent } from './components/team-members-section/t
 import { DiscoverSectionComponent } from './components/discover-section/discover-section.component';
 
 import { AboutRoutingModule } from './about.routing';
+import { SdgSectionComponent } from './components/sdg-section/sdg-section.component';
 
 @NgModule({
   imports: [
@@ -26,6 +27,7 @@ import { AboutRoutingModule } from './about.routing';
     AboutPageComponent,
     TeamMembersSectionComponent,
     DiscoverSectionComponent,
+    SdgSectionComponent,
   ],
 })
 export class FeaturesPagesAboutModule {}
