@@ -1,1 +1,11 @@
-<p>sdg-section works!</p>
+<div class="elewa-sdg-section">
+    <div class="elewa-sdg-text-section">
+        <h1>A proud supporter of SDG</h1>
+        <p>The secret to successful education sequi nesciunt. Neque porro dolar se quisquam dolorem ipsum quia dolor sit Eos qui ratione</p>
+    </div>
+
+    <div class="elewa-sdg-card" *ngFor="let card of sdgCard">
+        <elewa-website-elewa-sdg-card [cardsData]="sdgCard" [buttonData]="buttonData"></elewa-website-elewa-sdg-card>
+    </div>
+
+</div>
