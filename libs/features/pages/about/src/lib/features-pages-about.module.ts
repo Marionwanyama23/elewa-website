@@ -29,5 +29,6 @@ import { SdgSectionComponent } from './components/sdg-section/sdg-section.compon
     DiscoverSectionComponent,
     SdgSectionComponent,
   ],
+  exports: [SdgSectionComponent]
 })
 export class FeaturesPagesAboutModule {}
