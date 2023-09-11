@@ -10,6 +10,8 @@ import { ContentDevelopmentPageComponent } from './main/content-development-page
 import { ContentDevelopmentPageRoutingModule } from './content-development.routing';
 import { ContentDevHeroSectionComponent } from './components/content-dev-hero-section/content-dev-hero-section.component';
 import { ElewaContentDevAboutOneComponent } from './components/elewa-content-dev-about-one/elewa-content-dev-about-one.component';
+// eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
+import { ElewaImageAndTextBannerComponent } from 'libs/elements/banners/src/lib/components/elewa-image-and-text-banner/elewa-image-and-text-banner.component';
 
 @NgModule({
   imports: [
@@ -23,7 +25,8 @@ import { ElewaContentDevAboutOneComponent } from './components/elewa-content-dev
     ContentDevelopmentPageComponent,
     ContentDevHeroSectionComponent,
     ElewaContentDevAboutOneComponent,
+    ElewaImageAndTextBannerComponent,
   ],
-  exports: [ContentDevelopmentPageComponent],
+  exports: [ContentDevelopmentPageComponent, ElewaImageAndTextBannerComponent, ElewaContentDevAboutOneComponent],
 })
 export class ContentDevelopmentModule {}
