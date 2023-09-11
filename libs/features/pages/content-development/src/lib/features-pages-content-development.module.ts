@@ -9,13 +9,21 @@ import { ContentDevelopmentPageComponent } from './main/content-development-page
 
 import { ContentDevelopmentPageRoutingModule } from './content-development.routing';
 import { ContentDevHeroSectionComponent } from './components/content-dev-hero-section/content-dev-hero-section.component';
+import { ElewaContentDevAboutTwoComponent } from './components/elewa-content-dev-about-two/elewa-content-dev-about-two.component';
 
 @NgModule({
-  imports: [CommonModule, ContentDevelopmentPageRoutingModule, AppHeaderModule, TextsModule, ButtonsModule],
+  imports: [
+    CommonModule,
+    ContentDevelopmentPageRoutingModule,
+    AppHeaderModule,
+    TextsModule,
+    ButtonsModule,
+  ],
   declarations: [
     ContentDevelopmentPageComponent,
     ContentDevHeroSectionComponent,
+    ElewaContentDevAboutTwoComponent,
   ],
-  exports: [ContentDevelopmentPageComponent],
+  exports: [ContentDevelopmentPageComponent, ContentDevHeroSectionComponent, ElewaContentDevAboutTwoComponent],
 })
 export class ContentDevelopmentModule {}
