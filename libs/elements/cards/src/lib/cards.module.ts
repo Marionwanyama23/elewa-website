@@ -17,7 +17,6 @@ import { ElewaSdgCardComponent } from './components/elewa-sdg-card/elewa-sdg-car
     ElewaProjectItemCardComponent,
     ElewaTeamMemberCardComponent,
     ElewaSdgListComponent,
-    ElewaSdgCardComponent,
     ElewaSdgCardComponent
   ],
   exports: [
