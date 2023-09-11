@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { AppHeaderModule } from '@elewa-website/elements/layout/header';
 import { TextsModule } from '@elewa-website/elements/layout/texts';
 import { ButtonsModule } from '@elewa-website/elements/layout/buttons';
+import { BannersModule } from '@elewa-website/elements/banners';
 
 import { ContentDevelopmentPageComponent } from './main/content-development-page/content-development-page.component';
 
@@ -18,6 +19,7 @@ import { ElewaContentDevAboutTwoComponent } from './components/elewa-content-dev
     AppHeaderModule,
     TextsModule,
     ButtonsModule,
+    BannersModule,
   ],
   declarations: [
     ContentDevelopmentPageComponent,
