@@ -1,1 +1,9 @@
-<p>elewa-content-dev-about-one works!</p>
+<div
+  *ngFor="let imageContent of imageContent"
+  class="image-text-banner"
+  [ngClass]="getLayoutClass(imageContent)"
+>
+  <elewa-website-image-and-text-banner
+    [ImageAndText]="imageContent"
+  ></elewa-website-image-and-text-banner>
+</div>
